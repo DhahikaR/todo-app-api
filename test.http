@@ -1,0 +1,32 @@
+### Get All Todos
+GET http://localhost:3000/todos
+Accept: application/json
+
+### Get Todo by Id
+GET http://localhost:3000/todos/3
+Accept: application/json
+
+### Create Todo
+POST http://localhost:3000/todos
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title" : "",
+    "description" : "Belajar golang dasar dan Rest API"
+}
+
+### Update Todo
+PUT http://localhost:3000/todos/3
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title" : "Belajar Golang Dasar",
+    "description" : "Belajar golang dasar dan Rest API",
+    "status" : "done"
+}
+
+### Delete Todo
+DELETE http://localhost:3000/todos/1
+Accept: application/json

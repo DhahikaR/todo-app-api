@@ -1,0 +1,9 @@
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+
+# SQLite temporary test file
+test/memory
+memory

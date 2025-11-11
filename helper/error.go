@@ -1,0 +1,9 @@
+package helper
+
+import "github.com/gofiber/fiber/v2"
+
+func PanicIfError(err error) {
+	if err != nil {
+		panic(fiber.NewError(fiber.StatusBadRequest, err.Error()))
+	}
+}
