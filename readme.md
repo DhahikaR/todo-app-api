@@ -30,7 +30,7 @@ Project backend REST API sederhana menggunakan **Golang (Fiber + GORM)** dengan 
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/username/todo-app-api.git
+git clone https://github.com/DhahikaR/todo-app-api.git
 cd todo-app-api
 ```
 
